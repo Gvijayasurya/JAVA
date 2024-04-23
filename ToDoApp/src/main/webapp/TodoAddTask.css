@@ -1,0 +1,32 @@
+@charset "ISO-8859-1";
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+body{
+    background-image: linear-gradient(to bottom right, skyblue,blue,skyblue);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.container{
+	border: solid 0px;
+	height: 250px;
+	width: 300px;
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.358);
+	margin: auto;
+	margin-top: 150px;
+}
+.box{
+	border: solid 0px;
+	height: 170px;
+	width: 300px;
+}
+
+button{
+	height: 25px;
+	width: 50px;
+	margin-left: 50px;
+	border-radius:10px ;
+}

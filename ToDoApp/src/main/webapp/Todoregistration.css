@@ -1,0 +1,42 @@
+@charset "ISO-8859-1";
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+body{
+    background-image: linear-gradient(to bottom right,skyblue,blue,skyblue);
+    background-repeat: no-repeat;
+    height: 563px;
+}
+.mainbox{
+    border: solid 0px;
+    height: 500px;
+    width: 500px;
+    background-color:rgba(255, 255, 255, 0.342);
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+h3{
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+}
+.space{
+    border: solid 0px red;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.space label{
+    border: solid 2px green;
+    width: 150px;
+    display: inline-block;
+    text-align: right;
+    margin-right: 15px;
+}
+.space .bsp{
+    margin-left: 120px;
+}
